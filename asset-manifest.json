@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.a7f2c377.chunk.css",
-    "main.js": "/static/js/main.e71b3baf.chunk.js",
-    "main.js.map": "/static/js/main.e71b3baf.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e05a0ff4.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e05a0ff4.js.map",
-    "static/js/2.ca43f181.chunk.js": "/static/js/2.ca43f181.chunk.js",
-    "static/js/2.ca43f181.chunk.js.map": "/static/js/2.ca43f181.chunk.js.map",
-    "static/js/3.df49a1a8.chunk.js": "/static/js/3.df49a1a8.chunk.js",
-    "static/js/3.df49a1a8.chunk.js.map": "/static/js/3.df49a1a8.chunk.js.map",
+    "main.css": "/static/css/main.4a5bac81.chunk.css",
+    "main.js": "/static/js/main.d9d1eb1a.chunk.js",
+    "main.js.map": "/static/js/main.d9d1eb1a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6cd1c09f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6cd1c09f.js.map",
+    "static/js/2.0ffc17a9.chunk.js": "/static/js/2.0ffc17a9.chunk.js",
+    "static/js/2.0ffc17a9.chunk.js.map": "/static/js/2.0ffc17a9.chunk.js.map",
+    "static/js/3.f2386ee0.chunk.js": "/static/js/3.f2386ee0.chunk.js",
+    "static/js/3.f2386ee0.chunk.js.map": "/static/js/3.f2386ee0.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a7f2c377.chunk.css.map": "/static/css/main.a7f2c377.chunk.css.map",
-    "static/js/2.ca43f181.chunk.js.LICENSE.txt": "/static/js/2.ca43f181.chunk.js.LICENSE.txt",
+    "static/css/main.4a5bac81.chunk.css.map": "/static/css/main.4a5bac81.chunk.css.map",
+    "static/js/2.0ffc17a9.chunk.js.LICENSE.txt": "/static/js/2.0ffc17a9.chunk.js.LICENSE.txt",
     "static/media/Avtostation.6bb134c1.png": "/static/media/Avtostation.6bb134c1.png",
     "static/media/DLUX.a209b157.png": "/static/media/DLUX.a209b157.png",
     "static/media/HotelLondon.96cf7868.png": "/static/media/HotelLondon.96cf7868.png",
@@ -19,17 +19,16 @@
     "static/media/Khostytsa.74df3fbc.png": "/static/media/Khostytsa.74df3fbc.png",
     "static/media/NivkyPark .bc16da8e.png": "/static/media/NivkyPark .bc16da8e.png",
     "static/media/Tradytsiia.8ea96ddb.png": "/static/media/Tradytsiia.8ea96ddb.png",
+    "static/media/index.css": "/static/media/bookmanOldStyle.027ae5e4.ttf",
     "static/media/company.module.scss": "/static/media/company.cb2c5315.png",
     "static/media/holodomor.1270c2ea.jpg": "/static/media/holodomor.1270c2ea.jpg",
     "static/media/kosmopolit.86e4d32c.png": "/static/media/kosmopolit.86e4d32c.png",
-    "static/media/mainPage.module.scss": "/static/media/mainphoto.8da32ea2.jpg",
-    "static/media/service1.51c49ab4.png": "/static/media/service1.51c49ab4.png",
-    "static/media/service2.1ea5e40c.png": "/static/media/service2.1ea5e40c.png"
+    "static/media/mainPage.module.scss": "/static/media/mainphoto.8da32ea2.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e05a0ff4.js",
-    "static/js/2.ca43f181.chunk.js",
-    "static/css/main.a7f2c377.chunk.css",
-    "static/js/main.e71b3baf.chunk.js"
+    "static/js/runtime-main.6cd1c09f.js",
+    "static/js/2.0ffc17a9.chunk.js",
+    "static/css/main.4a5bac81.chunk.css",
+    "static/js/main.d9d1eb1a.chunk.js"
   ]
 }
