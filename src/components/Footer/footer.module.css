@@ -1,0 +1,70 @@
+/*@import './../../utilities/variables';*/
+
+.footer{
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+  min-height: 200px;
+  background-color: #0b2a3d;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 20px;
+  width: 100%;
+}
+.location p{
+  color: orange;
+  text-shadow: 1px 1px 1px black;;
+}
+.contacts p{
+  color: orange;
+  text-shadow: 1px 1px 1px black;;
+}
+.socialNet p{
+  color: orange;
+  text-shadow: 1px 1px 1px black;;
+}
+.title{
+  color: white;
+  font-size: 20px;
+}
+.info p a{
+  color: white;
+  margin: 0;
+}
+.info p{
+  color: white;
+  margin: 5px;
+}
+.copyright{
+  border-top: 1px solid orange;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  
+}
+.copyright p{
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+
+@media(max-width: 480px){
+  .footer{
+    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: column;
+  }
+  .title p{
+    margin: 0;
+  }
+  .title{
+    margin-top: 20px;
+  }
+  .socialNet{
+    margin-bottom: 20px;
+  }
+  .copyright{
+    font-size: 16px;
+  }
+}

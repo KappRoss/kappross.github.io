@@ -1,0 +1,25 @@
+/*@import '../../../utilities/_variables.css';*/
+
+.ServSubItem{
+  padding: 8px 10px;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.SubText{
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0 10px;
+  font-weight: normal;
+  color: #0b2a3d;
+  font-size: 16px;
+  position: absolute;
+  background-color: white;
+}
+.ServSubItem .SubText:hover{
+  text-decoration: none!important;
+}
+.SubText i {
+  font-size: 14px;
+}

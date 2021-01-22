@@ -1,0 +1,63 @@
+/*@import './../../utilities/variables';*/
+
+.company{
+  background-color: #0b2a3d;
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+}
+.company > .overlay{
+  background-image: url('../../img/company.png');
+  background-position: center;
+  background-size: cover;
+  
+}
+.companyTitle{
+  padding-top: 10px;
+}
+.companyTitle h2{
+  font-size: 2rem;
+  color: orange;
+  text-shadow: 1px 1px 1px black;;
+}
+.description{
+  display: flex;
+  justify-content: center;
+}
+
+.description p{
+  color: white;
+  max-width: 60%;
+  margin: 0 auto;
+  margin: 20px;
+}
+.aboutCompany{
+  display: grid;
+}
+
+@media(min-width: 1400px){
+  .aboutCompany{
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+}
+
+@media(max-width: 480px){
+
+  .company > .overlay{
+    padding-bottom: 20px;
+  }
+  .aboutCompany{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .photoCompany{
+    
+    margin: 20px;
+    height: 150px;
+  }
+  .description p{
+    color: white;
+    max-width: 90%;
+  }
+}

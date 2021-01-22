@@ -1,0 +1,163 @@
+@import '../../utilities/_variables.css';
+
+.servises{
+  display: grid;
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+  background-color: $secColour;
+  /* height: 100vh; */
+}
+.servisesTitle{
+  height: 40px;
+  margin-bottom: 40px;
+}
+.servisesTitle h2{
+  font-size: 2em;
+  font-weight: bold;
+  color: $h2Colour;
+  text-shadow: $tsStyle;
+  
+}
+
+
+
+@media(min-width: 1400px){
+  .servisesItem{
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+}
+@media(max-width: 1080px){
+  .servisesItem{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+  }
+  .item.mainPart:nth-last-child(-n+2) { /* последние 2 потомка */
+    display: none;
+  }
+}
+@media(max-width: 480px){
+  .servisesItem{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+  .item.mainPart:nth-last-child(-n+2) { /* последние 2 потомка */
+    display: none;
+  }
+  .wrapper{
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+}
+
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+.ServiseBlocks{
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 30px;
+  
+}
+
+.ProjectSystem{
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: 0 0 8px 0px $mainColour;
+  font-size: 21px;
+}
+.ProjectSystem ul{
+  position: relative;
+}
+.ProjectSystem li {
+  cursor: pointer;
+}
+
+.ProjectSystem li:hover {
+  text-decoration: underline;
+}
+.InstallationSystems ul{
+  position: relative;
+}
+.Commissioning ul{
+  position: relative;
+}
+.InstallationSystems{
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: 0 0 8px 0px $mainColour;
+  font-size: 21px;
+}
+.Commissioning{
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: 0 0 8px 0px $mainColour;
+  font-size: 21px;
+}
+.fa-clipboard{
+  color: black;
+  font-size: 50px;
+}
+.fa-tools{
+  color: black;
+  font-size: 50px;
+}
+.fa-sign-in-alt{
+  color: black;
+  font-size: 50px;
+}
+.icon{
+  padding-top: 15px;
+}
+.title{
+  font-weight: bold;;
+}
+
+@media (max-width:820px){
+  .ServiseBlocks{
+    padding: 10px;
+  
+    display: grid;
+    grid-template-columns: 95%;
+    justify-content: center;
+  
+  }
+  .fa-clipboard{
+    color: black;
+    font-size: 40px;
+  }
+  .fa-tools{
+    color: black;
+    font-size: 40px;
+  }
+  .fa-sign-in-alt{
+    color: black;
+    font-size: 40px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
