@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/petProject/static/css/main.86851d99.chunk.css",
+    "main.css": "/petProject/static/css/main.e4fedb6e.chunk.css",
     "main.js": "/petProject/static/js/main.3aaf9876.chunk.js",
     "main.js.map": "/petProject/static/js/main.3aaf9876.chunk.js.map",
     "runtime-main.js": "/petProject/static/js/runtime-main.43edcef6.js",
@@ -10,7 +10,7 @@
     "static/js/3.f2386ee0.chunk.js": "/petProject/static/js/3.f2386ee0.chunk.js",
     "static/js/3.f2386ee0.chunk.js.map": "/petProject/static/js/3.f2386ee0.chunk.js.map",
     "index.html": "/petProject/index.html",
-    "static/css/main.86851d99.chunk.css.map": "/petProject/static/css/main.86851d99.chunk.css.map",
+    "static/css/main.e4fedb6e.chunk.css.map": "/petProject/static/css/main.e4fedb6e.chunk.css.map",
     "static/js/2.aaaf1088.chunk.js.LICENSE.txt": "/petProject/static/js/2.aaaf1088.chunk.js.LICENSE.txt",
     "static/media/Avtostation.6bb134c1.png": "/petProject/static/media/Avtostation.6bb134c1.png",
     "static/media/DLUX.a209b157.png": "/petProject/static/media/DLUX.a209b157.png",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.43edcef6.js",
     "static/js/2.aaaf1088.chunk.js",
-    "static/css/main.86851d99.chunk.css",
+    "static/css/main.e4fedb6e.chunk.css",
     "static/js/main.3aaf9876.chunk.js"
   ]
 }
